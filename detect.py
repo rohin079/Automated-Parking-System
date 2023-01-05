@@ -33,7 +33,7 @@ def sendgmail(s,client):
     RecieverDetails = sheet2.row_values(sheet2.find(plate_number).row)
     #preparing the mail contents
     sender = "uparkopen@gmail.com" #email id of sender
-    password = "seufgscbiedmpxya" #password for the sender's account
+    password = ************ #password for the sender's account
     reciever = str(RecieverDetails[-2]) #email id of the receiver
     subject = "This is your parking slot" #subject of the email
     body = f"You have to park your vehical at slot number {slot}" #body of the email
